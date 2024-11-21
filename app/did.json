@@ -9,12 +9,12 @@
       }
     }
   ],
-  "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS",
+  "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS",
+      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS",
       "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS",
+      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -23,9 +23,9 @@
     }
   ],
   "authentication": [
-    "did:web:raw.githubusercontent.com:euan-gilmour:dids:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS"
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS"
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:euan-gilmour:dids:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS"
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:app#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS#z6Mkf4XyR7Sham4qEWMA7wa3yoYC32S1WcGn9YCQUFLrQXYS"
   ]
 }

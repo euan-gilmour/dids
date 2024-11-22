@@ -1,0 +1,34 @@
+{
+    "context": [
+        "https: //w3id.org/did/v1"
+    ],
+    "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user:public",
+    "verificationMethod": [
+        "VerificationMethod",
+        {
+            "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user:public#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user:public",
+            "publicKeyBase58": "4HSvmj1H5LqPs32yLeYbd79HkFrVAhbKea1sWbyRahDe"
+        }
+    ],
+    "service": [
+        "DidCommV1Service",
+        {
+            "id": "#inline-0",
+            "serviceEndpoint": "http: //localhost:3006",
+            "type": "did-communication",
+            "priority": 0,
+            "recipientKeys": [
+                "Array"
+            ],
+            "routingKeys": []
+        }
+    ],
+    "authentication": [
+        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user:public#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
+    ],
+    "assertionMethod": [
+        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user:public#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
+    ]
+}

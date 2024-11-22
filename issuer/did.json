@@ -1,0 +1,20 @@
+{
+    "@context": [
+        "https://w3id.org/did/v1"
+    ],
+    "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
+    "verificationMethod": [
+        {
+            "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
+            "publicKeyBase58": "4HSvmj1H5LqPs32yLeYbd79HkFrVAhbKea1sWbyRahDe"
+        }
+    ],
+    "authentication": [
+        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
+    ],
+    "assertionMethod": [
+        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
+    ]
+}

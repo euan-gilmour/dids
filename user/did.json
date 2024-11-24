@@ -1,30 +1,32 @@
 {
-    "context": [
-        "https: //w3id.org/did/v1"
-    ],
-    "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user",
-    "verificationMethod": [
-        {
-            "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12",
-            "type": "Ed25519VerificationKey2018",
-            "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user",
-            "publicKeyBase58": "4HSvmj1H5LqPs32yLeYbd79HkFrVAhbKea1sWbyRahDe"
-        }
-    ],
-    "service": [
-        {
-            "id": "#inline-0",
-            "serviceEndpoint": "http: //localhost:3006",
-            "type": "did-communication",
-            "priority": 0,
-            "recipientKeys": [],
-            "routingKeys": []
-        }
-    ],
-    "authentication": [
+  "@context": [
+    "https://w3id.org/did/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user",
+      "publicKeyBase58": "4HSvmj1H5LqPs32yLeYbd79HkFrVAhbKea1sWbyRahDe"
+    }
+  ],
+  "service": [
+    {
+      "id": "#inline-0",
+      "serviceEndpoint": "http://localhost:3006",
+      "type": "did-communication",
+      "priority": 0,
+      "recipientKeys": [
         "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
-    ],
-    "assertionMethod": [
-        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
-    ]
+      ],
+      "routingKeys": []
+    }
+  ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
+  ]
 }

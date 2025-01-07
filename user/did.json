@@ -16,5 +16,8 @@
     ],
     "authentication": [
         "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#keys-1"
+    ],
+    "assertionMethod": [
+        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#keys-1"
     ]
 }

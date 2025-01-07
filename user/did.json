@@ -1,32 +1,20 @@
 {
-  "@context": [
-    "https://w3id.org/did/v1"
-  ],
-  "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user",
-  "verificationMethod": [
-    {
-      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12",
-      "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user",
-      "publicKeyBase58": "4HSvmj1H5LqPs32yLeYbd79HkFrVAhbKea1sWbyRahDe"
-    }
-  ],
-  "service": [
-    {
-      "id": "#inline-0",
-      "serviceEndpoint": "http://localhost:3006",
-      "type": "did-communication",
-      "priority": 0,
-      "recipientKeys": [
-        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
-      ],
-      "routingKeys": []
-    }
-  ],
-  "authentication": [
-    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
-  ],
-  "assertionMethod": [
-    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
-  ]
+    "@context": "https://www.w3.org/ns/did/v1",
+    "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user",
+    "verificationMethod": [
+        {
+            "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#keys-1",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "crv": "P-256",
+                "x": "ALl8GbyYm6T1G8cUxZGll3XN4wyE-wJDkRl5zam-okEE",
+                "y": "MNOhfE2K7XpvgaiQ-8krE3Nd3CiHYuy6uMJN8Z4bGT8"
+            }
+        }
+    ],
+    "authentication": [
+        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:user#keys-1"
+    ]
 }

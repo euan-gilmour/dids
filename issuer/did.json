@@ -1,31 +1,26 @@
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    {
-      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
-      "publicKeyJwk": {
-        "@id": "https://w3id.org/security#publicKeyJwk",
-        "@type": "@json"
-      }
-    }
+    "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
+  "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#owner",
-      "type": "Ed25519VerificationKey2018",
-      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
+      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer",
       "publicKeyJwk": {
-        "kty": "OKP",
-        "crv": "Ed25519",
-        "x": "Q78LMRXvF9-SN4kN8BmpHQlSfpd-5Qmc6nmkyucf_lQ"
+        "kty": "EC",
+        "x": "ajamJtmFoPPLO_LQhbvlymo4ltuN6xw8BrB4cnOgWbM",
+        "y": "cUDbhwaZ3AEInyqlaxaje1xoCDe8r-nr6k0uEcK46Nk",
+        "crv": "secp256k1"
       }
     }
   ],
   "authentication": [
-    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#owner"
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer#owner"
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#owner"
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer#owner"
   ]
 }

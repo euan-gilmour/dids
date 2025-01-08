@@ -1,32 +1,31 @@
 {
-    "@context": [
-        "https://w3id.org/did/v1"
-    ],
-    "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
-    "verificationMethod": [
-        {
-            "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12",
-            "type": "Ed25519VerificationKey2018",
-            "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
-            "publicKeyBase58": "4HSvmj1H5LqPs32yLeYbd79HkFrVAhbKea1sWbyRahDe"
-        }
-    ],
-    "service": [
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
     {
-      "id": "#inline-0",
-      "serviceEndpoint": "http://localhost:3011",
-      "type": "did-communication",
-      "priority": 0,
-      "recipientKeys": [
-        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
-      ],
-      "routingKeys": []
+      "Ed25519VerificationKey2018": "https://w3id.org/security#Ed25519VerificationKey2018",
+      "publicKeyJwk": {
+        "@id": "https://w3id.org/security#publicKeyJwk",
+        "@type": "@json"
+      }
     }
   ],
-    "authentication": [
-        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
-    ],
-    "assertionMethod": [
-        "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#z6MkhjhyMyFiQtKryXsg2DWSUChHZq8LaaqgLavoLswSVv12"
-    ]
+  "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#owner",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "Q78LMRXvF9-SN4kN8BmpHQlSfpd-5Qmc6nmkyucf_lQ"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#owner"
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#owner"
+  ]
 }

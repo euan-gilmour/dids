@@ -11,8 +11,8 @@
       "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer",
       "publicKeyJwk": {
         "kty": "EC",
-        "x": "J-ZWpVGEw1-dwuc_WFJDI1mJVpuFRIBDs1wvcy12-us",
-        "y": "gpccwvLgrAHk4nvm7OWmHZ2pbc_UnhFO6Op73enirsQ",
+        "x": "BCfmVqVRhMNfncLnP1hSQyNZiVabhUSAQ7NcL3Mtdvo",
+        "y": "64KXHMLy4KwB5OJ75uzlph2dqW3P1J4RTujqe93p4q4",
         "crv": "secp256k1"
       }
     }

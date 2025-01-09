@@ -6,9 +6,9 @@
   "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer#owner",
+      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#owner",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer",
+      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer",
       "publicKeyJwk": {
         "kty": "EC",
         "x": "J-ZWpVGEw1-dwuc_WFJDI1mJVpuFRIBDs1wvcy12-us",
@@ -18,9 +18,9 @@
     }
   ],
   "authentication": [
-    "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer#owner"
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#owner"
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer#owner"
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:main:issuer#owner"
   ]
 }

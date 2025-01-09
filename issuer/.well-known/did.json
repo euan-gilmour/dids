@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "J-ZWpVGEw1-dwuc_WFJDI1mJVpuFRIBDs1wvcy12-us",
+        "y": "gpccwvLgrAHk4nvm7OWmHZ2pbc_UnhFO6Op73enirsQ",
+        "crv": "secp256k1"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer#owner"
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:euan-gilmour:dids:issuer#owner"
+  ]
+}
